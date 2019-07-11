@@ -1,3 +1,7 @@
+# ID my Seal
+
+This project will allow you to upload an image of a seal you've seen and give you a percentage accuracy result on which seal it thinks it is.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
