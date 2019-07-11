@@ -62,7 +62,7 @@ export default class Results extends React.Component {
         </h2>
         <img
           alt="Your image"
-          src={`${baseUrl}guessed-images/${folder}/${fileName}`}
+          src={`${baseUrl}/guessed-images/${folder}/${fileName}`}
           className="w-100"
         />
         <hr />
@@ -86,7 +86,7 @@ export default class Results extends React.Component {
                 >
                   <img
                     alt={match}
-                    src={`${baseUrl}${match.replace("../", "")}`}
+                    src={`${baseUrl}/${match.replace("../", "")}`}
                   />
                   <ul>
                     {Object.keys(data.matches[match])
